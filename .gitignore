@@ -1,0 +1,9 @@
+.vscode/
+
+.venv/
+__pycache__/
+
+*config.yml
+*.sh
+
+!example.config.yml

@@ -1,0 +1,13 @@
+timezone: Europe/London
+
+# https://www.ssh.com/academy/ssh/keygen
+ssh:
+  generate: False
+  install:
+  - openssh-server
+  keyfile: /home/$USER/.ssh/id_rsa
+  algorithm: rsa
+  key-size: 4096
+  passphrase: ""
+  comment: $USER@$(hostname)
+  authorized-keys: []
